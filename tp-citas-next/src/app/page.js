@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -14,9 +13,9 @@ export default function Home() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/pages/reservas">Reservas</Nav.Link>
-            <Nav.Link href="/pages/contacto">Contacto</Nav.Link>
-            <Nav.Link href="/pages/quienes-somos">Quienes somos</Nav.Link>
+            <Nav.Link href="/reservas">Reservas</Nav.Link>
+            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <Nav.Link href="/quienes-somos">Quienes somos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -25,6 +24,7 @@ export default function Home() {
       <div class = "container">
         <h1>Guardia de Mascotas</h1>
         <p>Aca tenes un espacio para poder sacar turnos para tener citas en la guardia</p>
+        <img src='./img/animales.jpg'/>
       </div>
     </>
   );
